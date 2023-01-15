@@ -6,8 +6,12 @@ type FilterProviderProps = {
 type SizesProps = {
   sizes: string[];
 };
+type FilterContext = {
+  toggleFilterSize: (size: string) => void;
+  sizes: SizesProps[];
+};
 
-const FilterContext = createContext({});
+const FilterContext = createContext({} as FilterContext);
 
 export const useFilterContext = () => useContext(FilterContext);
 

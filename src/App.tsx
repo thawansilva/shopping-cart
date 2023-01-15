@@ -5,7 +5,6 @@ import { FilterProvider } from "./context/FilterContext";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 
 function App() {
-  // Adicionar no github
   return (
     <FilterProvider>
       <ShoppingCartProvider>
