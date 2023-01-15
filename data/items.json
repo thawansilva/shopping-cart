@@ -1,0 +1,167 @@
+[
+  {
+    "id": 16,
+    "title": "Red Blazer",
+    "alt": "Photo Of Man Wearing Red Blazer",
+    "price": 64.9,
+    "imgUrl": "/src/assets/img/male/male8.jpg",
+    "availableSizes": ["XL"],
+    "isFreeShipping": true,
+    "gender": "male"
+  },
+  {
+    "id": 3,
+    "title": "Red Sweater",
+    "alt": "Woman Wearing Red Sweater",
+    "price": 39.9,
+    "imgUrl": "/src/assets/img/female/female3.jpg",
+    "availableSizes": ["ML", "L"],
+    "isFreeShipping": true,
+    "gender": "female"
+  },
+  {
+    "id": 13,
+    "title": "Black Shirt",
+    "alt": "Man Wearing Black Hat And Shirt",
+    "price": 29.9,
+    "imgUrl": "/src/assets/img/male/male5.jpg",
+    "availableSizes": ["S", "M"],
+    "isFreeShipping": false,
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "title": "Blue Denin Jeans",
+    "alt": "Woman Wearing Blue Denim Jeans",
+    "price": 34.9,
+    "imgUrl": "/src/assets/img/female/female4.jpg",
+    "availableSizes": ["XXL"],
+    "isFreeShipping": false,
+    "gender": "female"
+  },
+
+  {
+    "id": 5,
+    "title": "Black Top",
+    "alt": "Woman Wearing Black Top",
+    "price": 19.9,
+    "imgUrl": "/src/assets/img/female/female5.jpg",
+    "availableSizes": ["S"],
+    "isFreeShipping": true,
+    "gender": "female"
+  },
+
+  {
+    "id": 8,
+    "title": "Red Pants",
+    "alt": "Photo Of Woman Wearing Red Pants",
+    "price": 32.99,
+    "imgUrl": "/src/assets/img/female/female8.jpg",
+    "availableSizes": ["M", "XL"],
+    "isFreeShipping": false,
+    "gender": "female"
+  },
+  {
+    "id": 10,
+    "title": "Blue Blazer",
+    "alt": "Man in Blue Blazer and Gray Pants",
+    "price": 49.9,
+    "imgUrl": "/src/assets/img/male/male2.jpg",
+    "availableSizes": ["S", "L"],
+    "isFreeShipping": true,
+    "gender": "male"
+  },
+
+  {
+    "id": 9,
+    "title": "Black Coat",
+    "alt": "Man Wearing Black Hat and Black Coat",
+    "price": 79.9,
+    "imgUrl": "/src/assets/img/male/male1.jpg",
+    "availableSizes": ["XS", "S"],
+    "isFreeShipping": true,
+    "gender": "male"
+  },
+  {
+    "id": 14,
+    "title": "Long Sleeve Shirt",
+    "alt": "Man in White Long Sleeve Shirt Wearing Gold Necklace",
+    "price": 44.9,
+    "imgUrl": "/src/assets/img/male/male6.jpg",
+    "availableSizes": ["L", "XL"],
+    "isFreeShipping": true,
+    "gender": "male"
+  },
+
+  {
+    "id": 11,
+    "title": "Coat",
+    "alt": "Photo of Man Wearing Coat",
+    "price": 39.9,
+    "imgUrl": "/src/assets/img/male/male3.jpg",
+    "availableSizes": ["XL", "XXL"],
+    "isFreeShipping": false,
+    "gender": "male"
+  },
+  {
+    "id": 6,
+    "title": "Gray Shirt",
+    "alt": "Woman Wearing Gray Shirt Holding Head",
+    "price": 24.9,
+    "imgUrl": "/src/assets/img/female/female6.jpg",
+    "availableSizes": ["L", "XL"],
+    "isFreeShipping": false,
+    "gender": "female"
+  },
+  {
+    "id": 12,
+    "title": "Black Jacket",
+    "alt": "Man Wearing Red and Black Jacket and Black Hoodie",
+    "price": 29.9,
+    "imgUrl": "/src/assets/img/male/male4.jpg",
+    "availableSizes": ["XS", "XXL"],
+    "isFreeShipping": false,
+    "gender": "male"
+  },
+  {
+    "id": 1,
+    "title": "Yellow Long-sleeved Dress",
+    "alt": "Woman wearing Yellow Long-sleeved Dress",
+    "price": 69.9,
+    "imgUrl": "/src/assets/img/female/female1.jpg",
+    "availableSizes": ["S", "M"],
+    "isFreeShipping": true,
+    "gender": "female"
+  },
+  {
+    "id": 7,
+    "title": "Black Dress",
+    "alt": "Photography of a Woman Wearing Black Dress",
+    "price": 54.9,
+    "imgUrl": "/src/assets/img/female/female7.jpg",
+    "availableSizes": ["M"],
+    "isFreeShipping": true,
+    "gender": "female"
+  },
+
+  {
+    "id": 15,
+    "title": "Black Shirt",
+    "alt": "Photo Of Man Wearing Black Shirt",
+    "price": 24.9,
+    "imgUrl": "/src/assets/img/male/male7.jpg",
+    "availableSizes": ["XS", "XL"],
+    "isFreeShipping": false,
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "title": "Denim Jumper",
+    "alt": "Woman Wearing Denim Jumper",
+    "price": 19.9,
+    "imgUrl": "/src/assets/img/female/female2.jpg",
+    "availableSizes": ["XS", "S"],
+    "isFreeShipping": false,
+    "gender": "female"
+  }
+]
