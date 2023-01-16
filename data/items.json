@@ -4,7 +4,7 @@
     "title": "Red Blazer",
     "alt": "Photo Of Man Wearing Red Blazer",
     "price": 64.9,
-    "imgUrl": "/src/assets/img/male/male8.jpg",
+    "imgUrl": "/img/male/male8.jpg",
     "availableSizes": ["XL"],
     "isFreeShipping": true,
     "gender": "male"
@@ -14,7 +14,7 @@
     "title": "Red Sweater",
     "alt": "Woman Wearing Red Sweater",
     "price": 39.9,
-    "imgUrl": "/src/assets/img/female/female3.jpg",
+    "imgUrl": "/img/female/female3.jpg",
     "availableSizes": ["ML", "L"],
     "isFreeShipping": true,
     "gender": "female"
@@ -24,7 +24,7 @@
     "title": "Black Shirt",
     "alt": "Man Wearing Black Hat And Shirt",
     "price": 29.9,
-    "imgUrl": "/src/assets/img/male/male5.jpg",
+    "imgUrl": "/img/male/male5.jpg",
     "availableSizes": ["S", "M"],
     "isFreeShipping": false,
     "gender": "male"
@@ -34,7 +34,7 @@
     "title": "Blue Denin Jeans",
     "alt": "Woman Wearing Blue Denim Jeans",
     "price": 34.9,
-    "imgUrl": "/src/assets/img/female/female4.jpg",
+    "imgUrl": "/img/female/female4.jpg",
     "availableSizes": ["XXL"],
     "isFreeShipping": false,
     "gender": "female"
@@ -45,7 +45,7 @@
     "title": "Black Top",
     "alt": "Woman Wearing Black Top",
     "price": 19.9,
-    "imgUrl": "/src/assets/img/female/female5.jpg",
+    "imgUrl": "/img/female/female5.jpg",
     "availableSizes": ["S"],
     "isFreeShipping": true,
     "gender": "female"
@@ -56,7 +56,7 @@
     "title": "Red Pants",
     "alt": "Photo Of Woman Wearing Red Pants",
     "price": 32.99,
-    "imgUrl": "/src/assets/img/female/female8.jpg",
+    "imgUrl": "/img/female/female8.jpg",
     "availableSizes": ["M", "XL"],
     "isFreeShipping": false,
     "gender": "female"
@@ -66,7 +66,7 @@
     "title": "Blue Blazer",
     "alt": "Man in Blue Blazer and Gray Pants",
     "price": 49.9,
-    "imgUrl": "/src/assets/img/male/male2.jpg",
+    "imgUrl": "/img/male/male2.jpg",
     "availableSizes": ["S", "L"],
     "isFreeShipping": true,
     "gender": "male"
@@ -77,7 +77,7 @@
     "title": "Black Coat",
     "alt": "Man Wearing Black Hat and Black Coat",
     "price": 79.9,
-    "imgUrl": "/src/assets/img/male/male1.jpg",
+    "imgUrl": "/img/male/male1.jpg",
     "availableSizes": ["XS", "S"],
     "isFreeShipping": true,
     "gender": "male"
@@ -87,7 +87,7 @@
     "title": "Long Sleeve Shirt",
     "alt": "Man in White Long Sleeve Shirt Wearing Gold Necklace",
     "price": 44.9,
-    "imgUrl": "/src/assets/img/male/male6.jpg",
+    "imgUrl": "/img/male/male6.jpg",
     "availableSizes": ["L", "XL"],
     "isFreeShipping": true,
     "gender": "male"
@@ -98,7 +98,7 @@
     "title": "Coat",
     "alt": "Photo of Man Wearing Coat",
     "price": 39.9,
-    "imgUrl": "/src/assets/img/male/male3.jpg",
+    "imgUrl": "/img/male/male3.jpg",
     "availableSizes": ["XL", "XXL"],
     "isFreeShipping": false,
     "gender": "male"
@@ -108,7 +108,7 @@
     "title": "Gray Shirt",
     "alt": "Woman Wearing Gray Shirt Holding Head",
     "price": 24.9,
-    "imgUrl": "/src/assets/img/female/female6.jpg",
+    "imgUrl": "/img/female/female6.jpg",
     "availableSizes": ["L", "XL"],
     "isFreeShipping": false,
     "gender": "female"
@@ -118,7 +118,7 @@
     "title": "Black Jacket",
     "alt": "Man Wearing Red and Black Jacket and Black Hoodie",
     "price": 29.9,
-    "imgUrl": "/src/assets/img/male/male4.jpg",
+    "imgUrl": "/img/male/male4.jpg",
     "availableSizes": ["XS", "XXL"],
     "isFreeShipping": false,
     "gender": "male"
@@ -128,7 +128,7 @@
     "title": "Yellow Long-sleeved Dress",
     "alt": "Woman wearing Yellow Long-sleeved Dress",
     "price": 69.9,
-    "imgUrl": "/src/assets/img/female/female1.jpg",
+    "imgUrl": "/img/female/female1.jpg",
     "availableSizes": ["S", "M"],
     "isFreeShipping": true,
     "gender": "female"
@@ -138,7 +138,7 @@
     "title": "Black Dress",
     "alt": "Photography of a Woman Wearing Black Dress",
     "price": 54.9,
-    "imgUrl": "/src/assets/img/female/female7.jpg",
+    "imgUrl": "/img/female/female7.jpg",
     "availableSizes": ["M"],
     "isFreeShipping": true,
     "gender": "female"
@@ -149,7 +149,7 @@
     "title": "Black Shirt",
     "alt": "Photo Of Man Wearing Black Shirt",
     "price": 24.9,
-    "imgUrl": "/src/assets/img/male/male7.jpg",
+    "imgUrl": "/img/male/male7.jpg",
     "availableSizes": ["XS", "XL"],
     "isFreeShipping": false,
     "gender": "male"
@@ -159,7 +159,7 @@
     "title": "Denim Jumper",
     "alt": "Woman Wearing Denim Jumper",
     "price": 19.9,
-    "imgUrl": "/src/assets/img/female/female2.jpg",
+    "imgUrl": "/img/female/female2.jpg",
     "availableSizes": ["XS", "S"],
     "isFreeShipping": false,
     "gender": "female"
