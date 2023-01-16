@@ -1,4 +1,11 @@
-import { createContext, ReactNode, useContext, useState } from "react";
+import {
+  createContext,
+  Dispatch,
+  ReactNode,
+  SetStateAction,
+  useContext,
+  useState,
+} from "react";
 import { Cart } from "../components/Cart/Cart";
 
 type ShoppingCartProviderProps = {
@@ -11,6 +18,8 @@ type CartItemsProps = {
 };
 
 type ShoppingCartContext = {
+  isOpen: boolean;
+  setIsOpen: Dispatch<SetStateAction<boolean>>;
   openCart: () => void;
   closeCart: () => void;
   increaseCartQuantity: (id: number) => void;

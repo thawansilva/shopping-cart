@@ -3,12 +3,11 @@ import { createContext, ReactNode, useContext, useState } from "react";
 type FilterProviderProps = {
   children: ReactNode;
 };
-type SizesProps = {
-  sizes: string[];
-};
+type Sizes = string[] | undefined;
+
 type FilterContext = {
   toggleFilterSize: (size: string) => void;
-  sizes: SizesProps[];
+  sizes: Sizes;
 };
 
 const FilterContext = createContext({} as FilterContext);
@@ -16,14 +15,14 @@ const FilterContext = createContext({} as FilterContext);
 export const useFilterContext = () => useContext(FilterContext);
 
 export const FilterProvider = ({ children }: FilterProviderProps) => {
-  const [sizes, setSizes] = useState<SizesProps[]>([]);
+  const [sizes, setSizes] = useState<Sizes>();
 
   function toggleFilterSize(size: string) {
-    setSizes((currentSizes) => {
-      if (currentSizes.find((s) => s == size)) {
+    setSizes((currentSizes: Sizes | undefined) => {
+      if (currentSizes?.find((s) => s == size)) {
         return currentSizes.filter((s) => s != size);
       } else {
-        return [...currentSizes, size];
+        return [...(currentSizes || []), size];
       }
     });
   }
