@@ -5,7 +5,11 @@ export const Navbar = () => {
 
   return (
     <nav className="relative">
-      <a href="#" className="text-4xl m-2" title="Github Repo">
+      <a
+        href="https://github.com/thawansilva/shopping-cart"
+        className="text-4xl m-2"
+        title="Github Repo"
+      >
         <i className="fa-brands fa-github"></i>
       </a>
       <button
