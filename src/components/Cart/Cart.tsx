@@ -23,6 +23,7 @@ export const Cart = () => {
         className="float-right mr-4 mt-2"
         onClick={closeCart}
         title="Close Cart"
+        tabIndex={-1}
       >
         <i className="fa-solid fa-x"></i>
       </button>
@@ -61,12 +62,14 @@ export const Cart = () => {
         <p className="text-2xl font-bold">Subtotal:</p>
         <div>
           <span className="text-xl block ">{formatCurrency(subtotal)}</span>
-          <span className="pr-3">
-            or{" "}
-            {subtotal < 200
-              ? `6x of ${formatCurrency(subtotal / 6)}`
-              : `12x of ${formatCurrency(subtotal / 6)}`}
-          </span>
+          {subtotal && (
+            <span className="pr-3">
+              or{" "}
+              {subtotal < 200
+                ? `6x of ${formatCurrency(subtotal / 6)}`
+                : `12x of ${formatCurrency(subtotal / 6)}`}
+            </span>
+          )}
         </div>
       </div>
     </div>

@@ -22,9 +22,9 @@ export const CardItems = ({
 
   return (
     <>
-      <div className="relative w-[200px] mt-4 text-center mx-auto">
+      <div className="relative w-[185px] mt-4 text-center mx-auto">
         <img
-          className="w-[200px] h-[300px] object-cover object-top"
+          className="w-[185px] h-[275px] object-cover object-top"
           src={imgUrl}
           alt={alt}
           loading="lazy"

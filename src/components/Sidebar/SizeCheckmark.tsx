@@ -11,6 +11,7 @@ export const SizeCheckmark = ({ size }: sizeProps) => {
     <>
       <div className="relative mr-2">
         <input
+          tabIndex={2}
           onChange={(e) => {
             if (e.target.checked) toggleFilterSize(size);
             else toggleFilterSize(size);
@@ -18,7 +19,7 @@ export const SizeCheckmark = ({ size }: sizeProps) => {
           type="checkbox"
           value={size}
           name={size}
-          title={size}
+          title={`size ${size}`}
           className="appearance-none w-10 h-10 bg-gray-200 rounded-full text-xs  hover:outline hover:outline-1 hover:outline-gray-700 checked:bg-yellow-500"
         />
         <label

@@ -15,6 +15,7 @@ export const Navbar = () => {
       <button
         onClick={() => openCart()}
         className="relative float-right p-3 bg-black text-white"
+        tabIndex={0}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
