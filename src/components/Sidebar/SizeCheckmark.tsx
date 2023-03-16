@@ -5,7 +5,7 @@ type sizeProps = {
 };
 
 export const SizeCheckmark = ({ size }: sizeProps) => {
-  const { toggleFilterSize } = useFilterContext();
+  const { toggleSizeFilter } = useFilterContext();
 
   return (
     <>
@@ -13,8 +13,8 @@ export const SizeCheckmark = ({ size }: sizeProps) => {
         <input
           tabIndex={2}
           onChange={(e) => {
-            if (e.target.checked) toggleFilterSize(size);
-            else toggleFilterSize(size);
+            if (e.target.checked) toggleSizeFilter(size);
+            else toggleSizeFilter(size);
           }}
           type="checkbox"
           value={size}

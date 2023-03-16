@@ -6,7 +6,7 @@ type FilterProviderProps = {
 type Sizes = string[] | undefined;
 
 type FilterContext = {
-  toggleFilterSize: (size: string) => void;
+  toggleSizeFilter: (size: string) => void;
   sizes: Sizes;
 };
 
@@ -17,18 +17,19 @@ export const useFilterContext = () => useContext(FilterContext);
 export const FilterProvider = ({ children }: FilterProviderProps) => {
   const [sizes, setSizes] = useState<Sizes>();
 
-  function toggleFilterSize(size: string) {
+  function toggleSizeFilter(size: string) {
     setSizes((currentSizes: Sizes | undefined) => {
-      if (currentSizes?.find((s) => s == size)) {
-        return currentSizes.filter((s) => s != size);
-      } else {
-        return [...(currentSizes || []), size];
+      const sizeFilter = currentSizes?.find((s) => s == size);
+
+      if (sizeFilter) {
+        return currentSizes?.filter((s) => s != size);
       }
+      return [...(currentSizes || []), size];
     });
   }
 
   return (
-    <FilterContext.Provider value={{ sizes, toggleFilterSize }}>
+    <FilterContext.Provider value={{ sizes, toggleSizeFilter }}>
       {children}
     </FilterContext.Provider>
   );
