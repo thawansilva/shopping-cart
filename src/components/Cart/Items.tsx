@@ -52,10 +52,6 @@ export const Items = ({ id, quantity }: CartItemsProps) => {
         </p>
         <div className="flex float-right">
           <button
-            {...(quantity == 1 && {
-              disabled: true,
-              style: { backgroundColor: "#808080" },
-            })}
             title="Decrease quantity"
             onClick={() => decreaseCartQuantity(id)}
             className="h-6 w-6 bg-black select-none"
