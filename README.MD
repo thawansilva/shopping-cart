@@ -2,7 +2,7 @@
 
 This shopping cart prototype project;
 
-<img src="/img/shoppingcart.png" alt="Image of the shopping cart page"></img>
+<img src="./public/img/shoppingcart.png" alt="Image of the shopping cart page"></img>
 
 ## Basic Overview - [Live Demo](https://clotheshoppingcart.vercel.app/)
 
